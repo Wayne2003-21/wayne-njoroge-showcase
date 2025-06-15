@@ -1,84 +1,104 @@
 
 import React from 'react';
-import { Code, Palette, Globe, Award } from 'lucide-react';
+import { Target, Eye, Award, Users } from 'lucide-react';
 
 const About = () => {
-  const skills = [
+  const values = [
     {
-      category: 'Design',
-      icon: <Palette className="text-pink-500" size={24} />,
-      items: ['Photoshop', 'UI/UX Design', 'Branding', 'Illustration', 'Logo Design']
+      icon: <Target className="text-neon-green" size={32} />,
+      title: 'Innovation',
+      description: 'We push boundaries and explore new creative possibilities in every project.'
     },
     {
-      category: 'Development',
-      icon: <Code className="text-blue-500" size={24} />,
-      items: ['JavaScript', 'HTML/CSS', 'PHP/MySQL', 'Responsive Design', 'WordPress']
+      icon: <Eye className="text-neon-blue" size={32} />,
+      title: 'Quality',
+      description: 'Excellence is our standard. We deliver pixel-perfect designs and clean code.'
     },
     {
-      category: 'Tools & Platforms',
-      icon: <Globe className="text-green-500" size={24} />,
-      items: ['Adobe Creative Suite', 'Figma', 'Git/GitHub', 'VS Code', 'Hostinger']
+      icon: <Award className="text-neon-purple" size={32} />,
+      title: 'Trust',
+      description: 'Building long-term relationships through reliability and transparency.'
+    },
+    {
+      icon: <Users className="text-neon-green" size={32} />,
+      title: 'Collaboration',
+      description: 'Your vision combined with our expertise creates extraordinary results.'
     }
   ];
 
   return (
     <section id="about" className="py-20 bg-white">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">About Me</h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            I'm a passionate creative professional who bridges the gap between design and development, 
-            creating meaningful digital experiences that make an impact.
+          <h2 className="text-4xl md:text-5xl font-heading font-bold text-gray-900 mb-6">About Nuvue Studios</h2>
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+            Founded with a vision to bridge creativity and technology, we're a dynamic studio 
+            that transforms ideas into compelling digital experiences.
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
-          <div>
-            <div className="bg-gradient-to-br from-blue-50 to-purple-50 rounded-2xl p-8 shadow-lg">
-              <img 
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face" 
-                alt="Wayne Njoroge" 
-                className="w-64 h-64 rounded-full mx-auto object-cover shadow-xl"
-              />
-            </div>
-          </div>
-
-          <div>
-            <h3 className="text-2xl font-bold text-gray-900 mb-6">
-              Crafting Digital Excellence from Nakuru, Kenya
+        <div className="grid lg:grid-cols-2 gap-16 items-center mb-20">
+          <div className="order-2 lg:order-1">
+            <h3 className="text-3xl font-heading font-bold text-gray-900 mb-6">
+              Our Story
             </h3>
             <p className="text-gray-600 mb-6 leading-relaxed">
-              With a unique blend of artistic vision and technical expertise, I specialize in creating 
-              compelling visual identities and robust web solutions. My journey began with a passion 
-              for design, which naturally evolved into full-stack development capabilities.
+              Based in the heart of Nakuru, Kenya, Nuvue Studios was born from the belief that 
+              great design and development should be accessible to businesses of all sizes. We 
+              combine artistic vision with technical expertise to create solutions that not only 
+              look stunning but perform exceptionally.
             </p>
             <p className="text-gray-600 mb-8 leading-relaxed">
-              Whether you need a stunning brand identity, an intuitive user interface, or a fully 
-              functional website, I bring creativity and precision to every project. I believe in 
-              the power of good design to transform businesses and connect with audiences.
+              Our team of passionate creatives and developers work collaboratively to ensure 
+              every project exceeds expectations. From startups to established enterprises, 
+              we've helped numerous clients achieve their digital goals.
             </p>
-
-            <div className="grid gap-6">
-              {skills.map((skill, index) => (
-                <div key={index} className="bg-gray-50 rounded-lg p-4 hover:shadow-md transition-shadow duration-300">
-                  <div className="flex items-center mb-3">
-                    {skill.icon}
-                    <h4 className="font-semibold text-gray-900 ml-3">{skill.category}</h4>
-                  </div>
-                  <div className="flex flex-wrap gap-2">
-                    {skill.items.map((item, itemIndex) => (
-                      <span 
-                        key={itemIndex}
-                        className="bg-white px-3 py-1 rounded-full text-sm text-gray-700 shadow-sm"
-                      >
-                        {item}
-                      </span>
-                    ))}
-                  </div>
-                </div>
-              ))}
+            
+            <div className="grid grid-cols-2 gap-6">
+              <div className="text-center p-4 bg-gradient-to-br from-neon-green/10 to-neon-blue/10 rounded-xl">
+                <div className="text-2xl font-bold text-neon-green mb-2">2021</div>
+                <div className="text-gray-600 text-sm">Founded</div>
+              </div>
+              <div className="text-center p-4 bg-gradient-to-br from-neon-blue/10 to-neon-purple/10 rounded-xl">
+                <div className="text-2xl font-bold text-neon-blue mb-2">50+</div>
+                <div className="text-gray-600 text-sm">Happy Clients</div>
+              </div>
             </div>
           </div>
+
+          <div className="order-1 lg:order-2">
+            <div className="relative">
+              <div className="bg-gradient-to-br from-neon-green/20 to-neon-blue/20 rounded-2xl p-8 shadow-xl">
+                <img 
+                  src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=600&h=400&fit=crop" 
+                  alt="Nuvue Studios Team" 
+                  className="w-full h-80 rounded-xl object-cover shadow-lg"
+                />
+              </div>
+              <div className="absolute -bottom-6 -right-6 bg-white p-6 rounded-xl shadow-xl border border-gray-100">
+                <div className="text-center">
+                  <div className="text-3xl font-bold text-neon-green mb-1">99%</div>
+                  <div className="text-gray-600 text-sm">Success Rate</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Values Section */}
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          {values.map((value, index) => (
+            <div 
+              key={index}
+              className="text-center p-8 bg-gray-50 rounded-2xl hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 group"
+            >
+              <div className="mb-6 group-hover:scale-110 transition-transform duration-300 flex justify-center">
+                {value.icon}
+              </div>
+              <h4 className="text-xl font-heading font-bold text-gray-900 mb-4">{value.title}</h4>
+              <p className="text-gray-600 leading-relaxed">{value.description}</p>
+            </div>
+          ))}
         </div>
       </div>
     </section>
