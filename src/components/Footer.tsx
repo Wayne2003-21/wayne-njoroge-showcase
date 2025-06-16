@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Github, Linkedin, Mail, Phone, MapPin, Instagram, Twitter } from 'lucide-react';
 
@@ -31,16 +30,16 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="bg-gray-900 text-white">
+    <footer className="bg-charcoal-gray text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
           {/* Company Info */}
           <div className="lg:col-span-1">
             <div className="flex items-center mb-4">
               <img 
-                src="/lovable-uploads/2904f787-ec1c-40a4-be9f-eeced0028d1b.png" 
+                src="/lovable-uploads/60669ec2-fb9b-4c7c-b7bb-6823898bbcb8.png" 
                 alt="Nuvue Studios" 
-                className="h-8 w-auto mr-3 brightness-0 invert"
+                className="h-8 w-auto mr-3"
               />
             </div>
             <p className="text-gray-400 leading-relaxed mb-6">
@@ -53,7 +52,7 @@ const Footer = () => {
                   key={index}
                   href={social.href}
                   aria-label={social.label}
-                  className="bg-gray-800 p-2 rounded-lg hover:bg-gradient-to-r hover:from-neon-green hover:to-neon-blue transition-all duration-300"
+                  className="bg-gray-800 p-2 rounded-lg hover:bg-gradient-to-r hover:from-royal-blue hover:to-electric-purple transition-all duration-300"
                 >
                   {social.icon}
                 </a>
@@ -103,21 +102,21 @@ const Footer = () => {
             <h4 className="font-semibold text-lg mb-4">Contact Info</h4>
             <div className="space-y-3">
               <div className="flex items-center text-gray-400">
-                <Mail size={16} className="mr-3 text-neon-green" />
+                <Mail size={16} className="mr-3 text-royal-blue" />
                 <span>hello@nuvuestudios.co.ke</span>
               </div>
               <div className="flex items-center text-gray-400">
-                <Phone size={16} className="mr-3 text-neon-green" />
+                <Phone size={16} className="mr-3 text-royal-blue" />
                 <span>+254 700 000 000</span>
               </div>
               <div className="flex items-center text-gray-400">
-                <MapPin size={16} className="mr-3 text-neon-green" />
+                <MapPin size={16} className="mr-3 text-royal-blue" />
                 <span>Nakuru CBD, Kenya</span>
               </div>
             </div>
 
-            <div className="mt-6 p-4 bg-gradient-to-r from-neon-green/10 to-neon-blue/10 rounded-lg border border-neon-green/20">
-              <h5 className="font-semibold text-neon-green mb-2">Ready to Start?</h5>
+            <div className="mt-6 p-4 bg-gradient-to-r from-royal-blue/10 to-electric-purple/10 rounded-lg border border-royal-blue/20">
+              <h5 className="font-semibold text-royal-blue mb-2">Ready to Start?</h5>
               <p className="text-sm text-gray-400 mb-3">
                 Get a free consultation for your next project.
               </p>
@@ -126,7 +125,7 @@ const Footer = () => {
                   const element = document.querySelector('#contact');
                   if (element) element.scrollIntoView({ behavior: 'smooth' });
                 }}
-                className="bg-gradient-to-r from-neon-green to-neon-blue text-white px-4 py-2 rounded-lg text-sm font-semibold hover:scale-105 transition-transform duration-300"
+                className="bg-gradient-to-r from-royal-blue to-electric-purple text-white px-4 py-2 rounded-lg text-sm font-semibold hover:scale-105 transition-transform duration-300"
               >
                 Get Quote
               </button>
@@ -141,13 +140,13 @@ const Footer = () => {
               © {currentYear} Nuvue Studios. All rights reserved. Designed & Developed with ❤️ in Kenya.
             </div>
             <div className="flex space-x-6 text-sm">
-              <a href="#" className="text-gray-400 hover:text-neon-green transition-colors duration-300">
+              <a href="#" className="text-gray-400 hover:text-royal-blue transition-colors duration-300">
                 Privacy Policy
               </a>
-              <a href="#" className="text-gray-400 hover:text-neon-green transition-colors duration-300">
+              <a href="#" className="text-gray-400 hover:text-royal-blue transition-colors duration-300">
                 Terms of Service
               </a>
-              <a href="#" className="text-gray-400 hover:text-neon-green transition-colors duration-300">
+              <a href="#" className="text-gray-400 hover:text-royal-blue transition-colors duration-300">
                 Cookies Policy
               </a>
             </div>

@@ -1,23 +1,22 @@
-
 import React from 'react';
 import { Palette, Code, Smartphone, Globe, Zap, Layers } from 'lucide-react';
 
 const Services = () => {
   const designServices = [
     {
-      icon: <Palette className="text-neon-green" size={32} />,
+      icon: <Palette className="text-royal-blue" size={32} />,
       title: 'Branding & Identity',
       description: 'Complete brand packages including logos, color schemes, and brand guidelines.',
       features: ['Logo Design', 'Brand Guidelines', 'Color Palettes', 'Typography']
     },
     {
-      icon: <Smartphone className="text-neon-blue" size={32} />,
+      icon: <Smartphone className="text-electric-purple" size={32} />,
       title: 'UI/UX Design',
       description: 'User-centered design that creates intuitive and engaging digital experiences.',
       features: ['User Research', 'Wireframing', 'Prototyping', 'User Testing']
     },
     {
-      icon: <Layers className="text-neon-purple" size={32} />,
+      icon: <Layers className="text-aqua-mint" size={32} />,
       title: 'Graphics & Print',
       description: 'Stunning visual communications for both digital and print media.',
       features: ['Social Media Graphics', 'Print Design', 'Photo Manipulation', 'Illustrations']
@@ -26,19 +25,19 @@ const Services = () => {
 
   const devServices = [
     {
-      icon: <Globe className="text-neon-green" size={32} />,
+      icon: <Globe className="text-royal-blue" size={32} />,
       title: 'Website Development',
       description: 'Modern, responsive websites built with the latest technologies and best practices.',
       features: ['Responsive Design', 'CMS Integration', 'E-commerce', 'Performance Optimization']
     },
     {
-      icon: <Code className="text-neon-blue" size={32} />,
+      icon: <Code className="text-electric-purple" size={32} />,
       title: 'Frontend Development',
       description: 'Interactive user interfaces that bring designs to life with smooth animations.',
       features: ['React/Vue Development', 'Custom Animations', 'API Integration', 'Cross-browser Support']
     },
     {
-      icon: <Zap className="text-neon-purple" size={32} />,
+      icon: <Zap className="text-aqua-mint" size={32} />,
       title: 'Full-Stack Solutions',
       description: 'End-to-end development from concept to deployment and ongoing maintenance.',
       features: ['Project Planning', 'Database Design', 'Backend Development', 'Cloud Deployment']
@@ -46,10 +45,10 @@ const Services = () => {
   ];
 
   return (
-    <section id="services" className="py-20 bg-gradient-to-br from-gray-50 to-white">
+    <section id="services" className="py-20 bg-gradient-to-br from-off-white to-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-heading font-bold text-gray-900 mb-6">Our Services</h2>
+          <h2 className="text-4xl md:text-5xl font-heading font-bold text-charcoal-gray mb-6">Our Services</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
             From creative concepts to technical implementation, we offer comprehensive 
             solutions to elevate your brand and digital presence.
@@ -58,7 +57,7 @@ const Services = () => {
 
         {/* Graphic Design Services */}
         <div className="mb-20">
-          <h3 className="text-3xl font-heading font-bold text-center text-gray-900 mb-12">
+          <h3 className="text-3xl font-heading font-bold text-center text-charcoal-gray mb-12">
             Graphic Design
           </h3>
           <div className="grid md:grid-cols-3 gap-8">
@@ -75,7 +74,7 @@ const Services = () => {
                 <ul className="space-y-2">
                   {service.features.map((feature, featureIndex) => (
                     <li key={featureIndex} className="text-sm text-gray-500 flex items-center">
-                      <div className="w-2 h-2 bg-neon-green rounded-full mr-3"></div>
+                      <div className="w-2 h-2 bg-royal-blue rounded-full mr-3"></div>
                       {feature}
                     </li>
                   ))}
@@ -87,7 +86,7 @@ const Services = () => {
 
         {/* Web Development Services */}
         <div className="mb-16">
-          <h3 className="text-3xl font-heading font-bold text-center text-gray-900 mb-12">
+          <h3 className="text-3xl font-heading font-bold text-center text-charcoal-gray mb-12">
             Web Development
           </h3>
           <div className="grid md:grid-cols-3 gap-8">
@@ -104,7 +103,7 @@ const Services = () => {
                 <ul className="space-y-2">
                   {service.features.map((feature, featureIndex) => (
                     <li key={featureIndex} className="text-sm text-gray-500 flex items-center">
-                      <div className="w-2 h-2 bg-neon-blue rounded-full mr-3"></div>
+                      <div className="w-2 h-2 bg-electric-purple rounded-full mr-3"></div>
                       {feature}
                     </li>
                   ))}
@@ -120,7 +119,7 @@ const Services = () => {
               const element = document.querySelector('#contact');
               if (element) element.scrollIntoView({ behavior: 'smooth' });
             }}
-            className="bg-gradient-to-r from-neon-green to-neon-blue text-white px-8 py-4 rounded-full font-semibold text-lg hover:scale-105 transition-all duration-300 shadow-xl hover:shadow-2xl"
+            className="bg-gradient-to-r from-royal-blue to-electric-purple text-white px-8 py-4 rounded-full font-semibold text-lg hover:scale-105 transition-all duration-300 shadow-xl hover:shadow-2xl"
           >
             Start Your Project
           </button>

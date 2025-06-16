@@ -39,7 +39,7 @@ const Navigation = () => {
         <div className="flex justify-between items-center py-4">
           <div className="flex items-center">
             <img 
-              src="/lovable-uploads/2904f787-ec1c-40a4-be9f-eeced0028d1b.png" 
+              src="/lovable-uploads/60669ec2-fb9b-4c7c-b7bb-6823898bbcb8.png" 
               alt="Nuvue Studios" 
               className="h-10 w-auto"
             />
@@ -51,15 +51,15 @@ const Navigation = () => {
               <button
                 key={item.name}
                 onClick={() => scrollToSection(item.href)}
-                className="text-gray-700 hover:text-neon-green transition-colors duration-300 font-medium relative group"
+                className="text-charcoal-gray hover:text-royal-blue transition-colors duration-300 font-medium relative group"
               >
                 {item.name}
-                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-neon-green transition-all duration-300 group-hover:w-full"></span>
+                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-royal-blue transition-all duration-300 group-hover:w-full"></span>
               </button>
             ))}
             <button 
               onClick={() => scrollToSection('#contact')}
-              className="bg-gradient-to-r from-neon-green to-neon-blue text-white px-6 py-2 rounded-full font-semibold hover:scale-105 transition-transform duration-300 shadow-lg"
+              className="bg-gradient-to-r from-royal-blue to-electric-purple text-white px-6 py-2 rounded-full font-semibold hover:scale-105 transition-transform duration-300 shadow-lg"
             >
               Get Quote
             </button>
@@ -82,14 +82,14 @@ const Navigation = () => {
                 <button
                   key={item.name}
                   onClick={() => scrollToSection(item.href)}
-                  className="block w-full text-left px-4 py-3 text-gray-700 hover:text-neon-green hover:bg-gray-50 transition-colors duration-300"
+                  className="block w-full text-left px-4 py-3 text-charcoal-gray hover:text-royal-blue hover:bg-gray-50 transition-colors duration-300"
                 >
                   {item.name}
                 </button>
               ))}
               <button 
                 onClick={() => scrollToSection('#contact')}
-                className="w-full mx-4 mt-4 bg-gradient-to-r from-neon-green to-neon-blue text-white px-6 py-3 rounded-full font-semibold"
+                className="w-full mx-4 mt-4 bg-gradient-to-r from-royal-blue to-electric-purple text-white px-6 py-3 rounded-full font-semibold"
               >
                 Get Quote
               </button>
