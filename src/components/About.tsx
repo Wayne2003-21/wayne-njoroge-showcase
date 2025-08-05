@@ -29,10 +29,9 @@ const About = () => {
     <section id="about" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-heading font-bold text-gray-900 mb-6">About Nuvue Studios</h2>
+          <h2 className="text-4xl md:text-5xl font-heading font-bold text-gray-900 mb-6">About Wayne Njoroge</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Founded with a vision to bridge creativity and technology, we're a dynamic studio 
-            that transforms ideas into compelling digital experiences.
+            Hi, I'm Wayne Njoroge, a creative web and graphic designer based in Kenya with a passion for crafting digital experiences that matter. As the founder of Nuvue Studio, I believe in the power of blending visual storytelling with functional design to create something truly impactful. My journey spans UI/UX design, branding, and web development, where I focus on building intuitive user experiences and bold visual identities that resonate with audiences. Every project is an opportunity to push creative boundaries while solving real-world problems—because great design isn't just about looking good, it's about working beautifully.
           </p>
         </div>
 
@@ -42,15 +41,16 @@ const About = () => {
               Our Story
             </h3>
             <p className="text-gray-600 mb-6 leading-relaxed">
-              Based in the heart of Nakuru, Kenya, Nuvue Studios was born from the belief that 
-              great design and development should be accessible to businesses of all sizes. We 
-              combine artistic vision with technical expertise to create solutions that not only 
-              look stunning but perform exceptionally.
+              Based in Nairobi, Kenya, my journey as a creative professional began with a simple belief: 
+              great design and development should tell a story while solving real problems. I founded 
+              Nuvue Studios to bring together artistic vision with technical expertise, creating 
+              solutions that not only look stunning but perform exceptionally.
             </p>
             <p className="text-gray-600 mb-8 leading-relaxed">
-              Our team of passionate creatives and developers work collaboratively to ensure 
-              every project exceeds expectations. From startups to established enterprises, 
-              we've helped numerous clients achieve their digital goals.
+              From brand identities that capture the essence of a business to user interfaces that 
+              feel intuitive and delightful, I work collaboratively with clients to ensure every 
+              project exceeds expectations. Whether you're a startup with big dreams or an established 
+              business looking to elevate your digital presence, I'm here to help you achieve your goals.
             </p>
             
             <div className="grid grid-cols-2 gap-6">
