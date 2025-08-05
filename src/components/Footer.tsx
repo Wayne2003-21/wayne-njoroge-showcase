@@ -7,8 +7,8 @@ const Footer = () => {
   const socialLinks = [
     { icon: <Instagram size={20} />, href: '#', label: 'Instagram' },
     { icon: <Twitter size={20} />, href: '#', label: 'Twitter' },
-    { icon: <Linkedin size={20} />, href: '#', label: 'LinkedIn' },
-    { icon: <Github size={20} />, href: '#', label: 'GitHub' }
+    { icon: <Linkedin size={20} />, href: 'https://www.linkedin.com/in/wayne-githaiga-43065623b', label: 'LinkedIn' },
+    { icon: <Github size={20} />, href: 'https://github.com/Wayne2003-21', label: 'GitHub' }
   ];
 
   const services = [
