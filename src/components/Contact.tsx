@@ -52,8 +52,8 @@ const Contact = () => {
             
             <div className="space-y-6 mb-8">
               <div className="flex items-center">
-                <div className="bg-gradient-to-r from-aqua-mint to-royal-blue p-3 rounded-lg mr-4">
-                  <Mail className="text-white" size={24} />
+                <div className="bg-gray-100 p-3 rounded-lg mr-4">
+                  <Mail className="text-gray-600" size={24} />
                 </div>
                 <div>
                   <h4 className="font-semibold text-gray-900">Email</h4>
@@ -62,8 +62,8 @@ const Contact = () => {
               </div>
               
               <div className="flex items-center">
-                <div className="bg-gradient-to-r from-royal-blue to-electric-purple p-3 rounded-lg mr-4">
-                  <Phone className="text-white" size={24} />
+                <div className="bg-gray-100 p-3 rounded-lg mr-4">
+                  <Phone className="text-gray-600" size={24} />
                 </div>
                 <div>
                   <h4 className="font-semibold text-gray-900">Phone</h4>
@@ -72,8 +72,8 @@ const Contact = () => {
               </div>
               
               <div className="flex items-center">
-                <div className="bg-gradient-to-r from-electric-purple to-aqua-mint p-3 rounded-lg mr-4">
-                  <MapPin className="text-white" size={24} />
+                <div className="bg-gray-100 p-3 rounded-lg mr-4">
+                  <MapPin className="text-gray-600" size={24} />
                 </div>
                 <div>
                   <h4 className="font-semibold text-gray-900">Location</h4>
