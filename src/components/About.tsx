@@ -55,7 +55,7 @@ const About = () => {
             
             <div className="grid grid-cols-2 gap-6">
               <div className="text-center p-4 bg-gradient-to-br from-royal-blue/10 to-electric-purple/10 rounded-xl">
-                <div className="text-2xl font-bold text-royal-blue mb-2">2021</div>
+                <div className="text-2xl font-bold text-royal-blue mb-2">2025</div>
                 <div className="text-gray-600 text-sm">Founded</div>
               </div>
               <div className="text-center p-4 bg-gradient-to-br from-electric-purple/10 to-aqua-mint/10 rounded-xl">
