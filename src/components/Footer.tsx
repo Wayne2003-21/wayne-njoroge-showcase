@@ -44,7 +44,7 @@ const Footer = () => {
             </div>
             <p className="text-gray-400 leading-relaxed mb-6">
               Designing impact and developing the future. We're a creative studio 
-              based in Nakuru, Kenya, specializing in innovative design and development solutions.
+              based in Nairobi, Kenya, specializing in innovative design and development solutions.
             </p>
             <div className="flex space-x-4">
               {socialLinks.map((social, index) => (
@@ -111,7 +111,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center text-gray-400">
                 <MapPin size={16} className="mr-3 text-royal-blue" />
-                <span>Nakuru CBD, Kenya</span>
+                <span>Nairobi, Kenya</span>
               </div>
             </div>
 
