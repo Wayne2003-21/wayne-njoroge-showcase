@@ -26,25 +26,25 @@ export default {
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',
 				primary: {
-					DEFAULT: '#3A5BA0',
-					foreground: '#ffffff'
+					DEFAULT: 'hsl(var(--primary))',
+					foreground: 'hsl(var(--primary-foreground))'
 				},
 				secondary: {
-					DEFAULT: '#F8F9FA',
-					foreground: '#2C2C2C'
+					DEFAULT: 'hsl(var(--secondary))',
+					foreground: 'hsl(var(--secondary-foreground))'
 				},
 				accent: {
-					DEFAULT: '#A259FF',
-					foreground: '#ffffff'
+					DEFAULT: 'hsl(var(--accent))',
+					foreground: 'hsl(var(--accent-foreground))'
 				},
 				royal: {
-					blue: '#3A5BA0'
+					blue: 'hsl(258, 90%, 66%)'
 				},
 				electric: {
-					purple: '#A259FF'
+					purple: 'hsl(258, 90%, 66%)'
 				},
 				aqua: {
-					mint: '#20DFD3'
+					mint: 'hsl(189, 94%, 43%)'
 				},
 				charcoal: {
 					gray: '#2C2C2C'
