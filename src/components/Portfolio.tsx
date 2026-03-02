@@ -30,6 +30,25 @@ const Portfolio = () => {
       tech: ['React', 'Tailwind CSS', 'TypeScript'],
       type: 'Restaurant Website',
       liveUrl: 'https://anns-restaurant.netlify.app'
+    },
+    {
+      id: 4,
+      title: 'E-Commerce Store',
+      image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=400&fit=crop',
+      description: 'A complete e-commerce platform with product listings, shopping cart, checkout flow, and payment integration for a seamless online shopping experience.',
+      tech: ['React', 'TypeScript', 'Tailwind CSS'],
+      type: 'E-Commerce',
+      liveUrl: 'https://lovable.dev/projects/4a2ac426-c684-45a1-a45b-495eacf7c911'
+    },
+    {
+      id: 5,
+      title: 'COVID-19 Data Collection',
+      image: 'https://images.unsplash.com/photo-1584036561566-baf8f5f1b144?w=600&h=400&fit=crop',
+      description: 'A Python-based data collection and analysis tool for COVID-19 statistics. Gathers, processes, and visualizes pandemic data for insights.',
+      tech: ['Python'],
+      type: 'Data Collection',
+      liveUrl: 'https://github.com/Wayne2003-21/python-final-assignment',
+      isGitHub: true
     }
   ];
 
@@ -93,7 +112,7 @@ const Portfolio = () => {
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 text-sm font-semibold text-foreground hover:text-muted-foreground transition-colors"
                 >
-                  Live Preview <ExternalLink size={14} />
+                  {project.isGitHub ? 'View on GitHub' : 'Live Preview'} <ExternalLink size={14} />
                 </a>
               </div>
             </div>
