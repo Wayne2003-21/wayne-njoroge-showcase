@@ -7,42 +7,42 @@ const Testimonials = () => {
     {
       name: 'Sarah Kiprotich',
       position: 'CEO, TechVision Kenya',
-      image: 'https://images.unsplash.com/photo-1494790108755-2616b332c9ad?w=100&h=100&fit=crop&crop=face',
+      initials: 'SK',
       rating: 5,
       text: "Nuvue Studios transformed our brand identity completely. Their creative vision and attention to detail exceeded our expectations. The team is professional, responsive, and truly understands modern design principles."
     },
     {
       name: 'Michael Ochieng',
       position: 'Founder, Digital Solutions Ltd',
-      image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&crop=face',
+      initials: 'MO',
       rating: 5,
       text: "Working with Nuvue Studios was exceptional. They delivered a stunning website that perfectly captures our brand essence. Their development skills are top-notch, and the project was completed on time and within budget."
     },
     {
       name: 'Grace Wanjiku',
       position: 'Marketing Director, Nakuru Enterprises',
-      image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop&crop=face',
+      initials: 'GW',
       rating: 5,
       text: "The team at Nuvue Studios is incredibly talented. They took our vague ideas and turned them into a beautiful, functional website. Their expertise in both design and development is evident in every aspect of their work."
     },
     {
       name: 'David Mutua',
       position: 'Owner, Rift Valley Coffee',
-      image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face',
+      initials: 'DM',
       rating: 5,
       text: "From logo design to our complete digital presence, Nuvue Studios handled everything perfectly. Their creative approach and technical expertise helped us stand out in a competitive market. Highly recommended!"
     },
     {
       name: 'Linda Nyambura',
       position: 'Founder, Creative Hub Africa',
-      image: 'https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=100&h=100&fit=crop&crop=face',
+      initials: 'LN',
       rating: 5,
       text: "Nuvue Studios understands the local market while delivering international quality. Their designs are fresh, modern, and exactly what we needed to elevate our brand. The entire process was smooth and professional."
     },
     {
       name: 'James Kipkorir',
       position: 'Director, Innovation Lab',
-      image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop&crop=face',
+      initials: 'JK',
       rating: 5,
       text: "Outstanding work from start to finish. Nuvue Studios combines creativity with technical excellence. They listened to our needs, provided valuable insights, and delivered results that exceeded our expectations."
     }
@@ -79,11 +79,9 @@ const Testimonials = () => {
               </p>
               
               <div className="flex items-center">
-                <img 
-                  src={testimonial.image} 
-                  alt={testimonial.name}
-                  className="w-12 h-12 rounded-full object-cover mr-4"
-                />
+                <div className="w-12 h-12 rounded-full bg-primary text-primary-foreground flex items-center justify-center font-bold text-sm mr-4">
+                  {testimonial.initials}
+                </div>
                 <div>
                   <h4 className="font-semibold text-gray-900">{testimonial.name}</h4>
                   <p className="text-sm text-gray-500">{testimonial.position}</p>
