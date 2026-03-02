@@ -38,13 +38,13 @@ export default {
 					foreground: 'hsl(var(--accent-foreground))'
 				},
 				royal: {
-					blue: 'hsl(258, 90%, 66%)'
+					blue: 'hsl(0, 0%, 10%)'
 				},
 				electric: {
-					purple: 'hsl(258, 90%, 66%)'
+					purple: 'hsl(0, 0%, 30%)'
 				},
 				aqua: {
-					mint: 'hsl(189, 94%, 43%)'
+					mint: 'hsl(0, 0%, 50%)'
 				},
 				charcoal: {
 					gray: '#2C2C2C'
